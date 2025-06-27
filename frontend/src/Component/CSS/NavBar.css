@@ -1,0 +1,43 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #f4f4f4; /* Color for navbar background */
+  height: 60px;
+  display: flex;
+  justify-content: center; /* Center the navbar content */
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* Text color for links */
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+  background-color: #b6bab6; /* Color on hover */
+  border-radius: 5px;
+}
+
+.nav-links a.active {
+  background-color: #B03A2E; /* Active link background color */
+  color: white; /* Active link text color */
+  border-radius: 5px;
+}

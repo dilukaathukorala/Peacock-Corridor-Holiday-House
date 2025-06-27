@@ -1,0 +1,21 @@
+/* ProfilePhoto.css */
+.profile-photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align photo to the right side */
+  width: 200px; /* Adjust container width to fit the background circle */
+  height: 200px; /* Adjust container height to fit the background circle */
+  border-radius: 90%; /* Make the container circular */
+  padding: 7px; /* Add padding for spacing */
+  overflow: hidden; /* Ensure anything overflowing is hidden */
+  margin-top: 100px;
+  margin-right: 40px;
+}
+
+.profile-photo {
+  width: 100px; /* Adjust size of the profile picture */
+  height: 100px; /* Keep the height equal to width for a square */
+  border-radius: 50%; /* Ensure the image is circular */
+  border: 5px solid #b40000; /* Optional: Add a white border around the image */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}

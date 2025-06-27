@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Invemntory management system for Peacock corridor holiday house",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongeese": "^0.0.1",
+    "mongodb": "^6.9.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.5"
+  }
+}

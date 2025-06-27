@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between logo and profile photo */
+  width: 100%; /* Ensure header takes full width */
+  height: 90px;
+  background-color: #f4f4f4; /* Light background */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+.logo {
+  width: 150px; /* Adjust logo size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.title-container {
+  flex-grow: 1; /* Title takes available space */
+  text-align: center; /* Center the title */
+}
+
+.header-title {
+  margin: 0; /* Remove default margins */
+}
+
+.highlight-inventory {
+  color: orange; /* Color for "Inventory" */
+  align-self: center;
+}
+
+.highlight-management {
+  color: maroon; /* Color for "Management" */
+}
+
+/* No changes needed to ProfilePhoto here */
